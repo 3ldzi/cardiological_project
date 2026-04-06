@@ -68,7 +68,7 @@ After processing, results will appear in:
 output/results.csv
 
 # Example Output (simplified)
-test14.par	1403	1721.67	1200	1500.22	30	—	72.4	5.1	72<img width="569" height="72" alt="image" src="https://github.com/user-attachments/assets/9dfb4264-efa2-4fa1-8ba7-47d016f35c5e" />
+<img width="569" height="72" alt="image" src="https://github.com/user-attachments/assets/9dfb4264-efa2-4fa1-8ba7-47d016f35c5e" />
 
 # Data privacy 
 This repository does not contain any medical or patient data.
