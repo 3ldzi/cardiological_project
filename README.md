@@ -1,7 +1,9 @@
-# cardiological_project
+# Cardiological_project
 This project is designed to automatically analyze hemodynamic data from .par files (e.g., from ICG/ECG studies). The program allows you to: filter data based on signal quality (QI-ICG), select a signal segment for analysis (time or number of beats), calculate descriptive statistics for all parameters, and generate a results table in CSV format.
 
-# project structure
+# Project structure
+
+```text
 cardiological_project/
 │
 ├── app/
@@ -18,24 +20,24 @@ cardiological_project/
 ├── requirements.txt          # project dependencies
 ├── .gitignore                # ignored files and folders
 └── README.md                 # documentation
+```
 
 # Features
-✔ Quality Filtering
-Rows below a user-defined QI‑ICG threshold are removed.
+✔ Quality Filtering: Rows below a user-defined QI‑ICG threshold are removed.
 
-✔ Segment Selection
+✔ Segment Selection.
 The user chooses one of two analysis modes:
-Time-based analysis → specify number of seconds
-Beat-based analysis → specify number of heartbeats
-The program automatically selects the last stable segment of the signal.
+- Time-based analysis → specify number of seconds
+- Beat-based analysis → specify number of heartbeats
+- The program automatically selects the last stable segment of the signal.
 
-✔ Descriptive Statistics
+✔ Descriptive Statistics.
 For every numerical parameter, the program computes:
-Mean (MN)
-Standard deviation (STD)
-Median (MED)
+- Mean (MN)
+- Standard deviation (STD)
+- Median (MED)
 
-✔ Result Export
+✔ Result Export.
 All results are saved to:
 output/results.csv
 Including:
